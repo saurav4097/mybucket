@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product detail</title>
+    <link rel="stylesheet" href="/product.css">
+    
+</head>
+<body>
+    <!--bar 1**********************************************************-->
+    <div class="bar1">
+        <p>MyBag*</p>
+        <div class="navsearchbar">
+            <select class="searchbar"><option>All</option></select>
+            <!-- Add an ID to the search input field so it can be referenced -->
+            <input placeholder="search MyBag" class="searchinput" id="searchInput">
+            <!-- Correct the button to trigger the search function -->
+            <button class="searchicon" onclick="search()">
+                <h1>🔍</h1>
+            </button>
+        </div>
+        
+    </div> 
+
+    <!--bar 2**********************************************************-->
+    <div class="bar2">
+        <a href="/home" style="color: aliceblue ;">Go Back</a>
+    </div> 
+
+    <!--bar 3**********************************************************-->
+    <div class="bar33">
+        <div class="product-detail">
+            <h1><%= product.name %></h1>
+            <div class="product-images">
+                <% product.images.forEach(image => { %>
+                    <img src="data:image/jpeg;base64,<%= image %>" alt="<%= product.name %>">
+                <% }) %>
+            </div>
+            <div class="product-info">
+                <p>Price: $<%= product.price %></p>
+                <p>Description: <%= product.detail %></p>
+                <p>Offer: <%= product.offer %>% OFF</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--bar 4**********************************************************-->
+    <div class="bar4">
+        <div class="backtotop">
+            <pre>     ^
+Back To Top</pre>
+        </div>
+        <div class="extra">
+            <pre><a>Get to Know Us</a>
+About Us
+Careers
+Press Releases
+Amazon Science</pre>
+            <pre><a>Connect with Us</a>
+Facebook
+Twitter
+Instagram</pre>
+            <pre><a>Make Money with Us</a>
+Sell on Amazon
+Sell under Amazon Accelerator
+Protect and Build Your Brand
+Amazon Global Selling
+Become an Affiliate
+Fulfilment by Amazon
+Advertise Your Products
+Amazon Pay on Merchants</pre>
+            <pre><a>Let Us Help You</a>
+COVID-19 and Amazon
+Your Account
+Returns Centre
+Recalls and Product Safety Alerts
+100% Purchase Protection
+Amazon App Download
+Help</pre>
+        </div>
+        <div class="last">
+            <p>MyBag*</p>
+        </div>
+        <div class="last2">
+            <pre>   Thank you for being our valued customer.
+We are so grateful and hope we met your expectations. </pre>
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+</html>

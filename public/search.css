@@ -1,0 +1,197 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+.bar1{
+    background:rgb(33, 115, 77);
+    height:70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+    p{padding-left: 20px;
+        font-size:3rem;
+        padding-right:200px;
+        
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    
+}
+.navsearchbar{
+    margin-left: 50 px;
+height: 50px;
+width: 800px;
+font-size: 1rem;
+display: flex;
+
+}
+.searchbar{
+    width: 50px;
+    font-size: 1.1rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: rgb(196, 200, 203);
+}
+.searchinput{
+    width: 705px;
+    border: none;
+    font-size: 1rem;
+}
+.searchicon{
+background-color: rgb(62, 59, 59);
+width: 45px;
+border: none;
+border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    background-size: cover;
+}
+.bar2{
+    background-color: rgb(45, 46, 45);
+    color:white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    a{margin-right: 100px;}
+    .menubar{margin-left: 10px;margin-right: 110px;}
+}
+
+
+
+
+
+.box3939 {
+    display: flex; /* Make it a flex container */
+    width: 100%; /* Make sure it takes up the full width of its parent */
+    margin-bottom: 20px; /* Space between product boxes */
+}
+
+/* Left part (image and name) - 1/5 of the width */
+.box-left {
+    flex: 1; /* This will take up 1 part of the total 5 parts (1:4 ratio) */
+    padding: 10px; /* Add some padding */
+    overflow: hidden; /* Hide content overflowing */
+    color: brown; /* Background image */
+    background-size: cover; /* Ensure the image covers the div */
+    background-position: center; /* Center the image */
+    height: 300px; /* Set a fixed height */
+    color: white; 
+}
+
+/* Right part (offer and shop now) - 4/5 of the width */
+.box-right {
+    flex: 4; /* This will take up 4 parts of the total 5 parts (1:4 ratio) */
+    padding: 10px; /* Add some padding */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 300px; /* Set a fixed height for scrolling */
+}
+
+
+
+
+
+
+
+
+.bar34{
+width:400px;
+
+}
+
+
+
+
+
+.bar33{
+    
+    background-color: rgb(243, 246, 244);
+    height: 1120px;
+    width: 1400px;
+   display:flex;
+   flex-wrap: wrap;
+padding-left: 25px;
+
+}
+.box3{
+
+    border-radius: 2px;
+    height: 340px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("images/background.jpg");
+    overflow: hidden;
+    .image33{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 230px;
+        width: 230px;
+        background-size: cover;
+            max-width: 100%; /* Makes sure the image fills the container width */
+             /* Set a fixed height for the image container */
+            /* Ensures the image covers the container */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+          
+    }
+    p{display: flex;
+    justify-content: center;
+font-weight: bold;
+font-size: 1.2rem;
+margin-top: 10px;}
+a{display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+font-weight: bolder;
+margin-top: 5px;}
+b{display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+font-weight: bold;
+margin-top: 5px;}
+}
+
+
+.bar4{
+    height: 510px;
+    background-color: rgb(32, 44, 37);
+    color: aliceblue;
+    .backtotop{
+        height: 80px;margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        background-color: rgb(50, 77, 63);
+        font-size: 2rem;
+    }
+    .extra{
+        display: flex;
+        padding-left: 40px;
+        font-size: 14px;
+        pre{
+            margin-top: 80px;
+            margin-left: 140px;
+            a{font-weight: bolder;}
+        }
+    }
+    .last{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        color: rgb(251, 250, 250);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .last2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        color: white;
+       
+    }
+}

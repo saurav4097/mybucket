@@ -1,0 +1,194 @@
+*{
+    padding:0;
+    margin:0;
+}
+.bar1{
+    background:rgb(33, 115, 77);
+    height:70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+    p{padding-left: 20px;
+        font-size:3rem;
+        padding-right:200px;
+        
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    
+}
+.navsearchbar{
+    margin-left: 50 px;
+height: 50px;
+width: 800px;
+font-size: 1rem;
+display: flex;
+
+}
+.searchbar{
+    width: 50px;
+    font-size: 1.1rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: rgb(196, 200, 203);
+}
+.searchinput{
+    width: 705px;
+    border: none;
+    font-size: 1rem;
+}
+.searchicon{
+background-color: rgb(62, 59, 59);
+width: 45px;
+border: none;
+border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    background-size: cover;
+}
+.bar2{
+    background-color: rgb(45, 46, 45);
+    color:white;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    
+}
+
+
+
+
+
+
+
+
+/* General Styling for Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for Bar 3 */
+.bar33 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 350px;
+    transition: transform 0.3s ease;
+}
+
+.product-images img:hover {
+    transform: scale(1.05);
+}
+
+.product-info {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.product-info p {
+    margin: 10px 0;
+}
+
+.product-info p:first-child {
+    font-size: 24px;
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.product-info p:nth-child(2) {
+    font-size: 16px;
+    color: #888;
+}
+
+.product-info p:nth-child(3) {
+    font-size: 18px;
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.product-info a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.product-info a:hover {
+    background-color: #2980b9;
+}
+
+
+.bar4{
+    height: 510px;
+    background-color: rgb(32, 44, 37);
+    color: aliceblue;
+    .backtotop{
+        height: 80px;margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        background-color: rgb(50, 77, 63);
+        font-size: 2rem;
+    }
+    .extra{
+        display: flex;
+        padding-left: 40px;
+        font-size: 14px;
+        pre{
+            margin-top: 80px;
+            margin-left: 140px;
+            a{font-weight: bolder;}
+        }
+    }
+    .last{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        color: rgb(251, 250, 250);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .last2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        color: white;
+       
+    }
+}
